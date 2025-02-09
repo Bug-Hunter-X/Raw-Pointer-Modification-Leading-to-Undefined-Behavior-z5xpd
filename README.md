@@ -1,0 +1,3 @@
+# Raw Pointer Modification in Rust
+
+This repository demonstrates a common error related to raw pointer manipulation in Rust, specifically the potential for undefined behavior when modifying values through raw pointers without proper precautions.  The example illustrates how changing a value pointed to by a raw pointer can lead to issues with the original vector if not handled appropriately within the unsafe block. The `bug.rs` file shows the problematic code, while `bugSolution.rs` provides a safer, more idiomatic Rust approach.
